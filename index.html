@@ -1,65 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- configurações de compatibilidade de navegadores -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- configurações de compatibilidade de navegadores -->
-
     <title>Wandson Mesquita CV</title>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <main class="resume-contents">
         <section class="left-section">
-            <div class="left-section-contents">
+            <div class="left-section-content">
                 <div class="profile">
                     <img class="profile-image" src="img/foto projeto curriculo ebac.jpg" alt="Profile image">
-                    <p class="name">Wandson Mesquita</p>
-                    <p class="profession">Programador</p>
+                    <p class="name">Wandson Ferreira Mendes de Mesquita</p>
+                    <p class="profession">Desenvolvedor Full-Stack</p>
                 </div>
                 <div class="contact-info">
                     <p class="left-title">Contato</p>
                     <ul>
-                        <li><i class="fa fa-phone"></i>+48 88 777777
+                        <li><i class="fa fa-phone"></i>+5581 9999999
                         </li>
-                        <li><i class="fa fa-envelope"></i>wfm@yahoo.com
+                        <li><i class="fa fa-envelope"></i>wfmm@gmail.com
                         </li>
-                        <li><i class="fa fa-globe"></i>wandson.dev.com
+                        <li><i class="fa fa-globe"></i>wf.org.br
                         </li>
-                        <li><i class="fa fa-github"></i>wf.github.io
+                        <li><i class="fa fa-github"></i>wfmesquita
                         </li>
                     </ul>
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
                     <ul>
-                        <li>
-                            <p>c#, html, css </p>
-                        </li>
-                        <li>
-                            <p>JavaScript</p>
-                        </li>
-                        <li>
-                            <p>Angular, Kotlin</p>
-                        </li>
-                        <li>
-                            <p>HTML5 & CSS3</p>
-                        </li>
-                        <li>
-                            <p>SQL, Postgres, MongoDB</p>
-                        </li>
-                        <li>
-                            <p>Git & GitHub</p>
-                        </li>
-                        <li>
-                            <p>Linux, Bash/Shell</p>
-                        </li>
+                        <li><p>C#</p></li>
+                        <li><p>JavaScript, React,JS</p></li>
+                        <li><p>HTML5 & CSS3</p></li>
+                        <li><p>SQL, Postgres, MongoDB</p></li>
+                        <li><p>Git & GitHub</p></li>
                     </ul>
                 </div>
             </div>
@@ -67,6 +54,7 @@
 
         <section class="right-section">
             <div class="right-section-contents">
+                <!-- sobre mim -->
                 <section class="about gap">
                     <div class="right-title">Sobre Mim</div>
                     <p class="about-me-contents">
@@ -75,72 +63,80 @@
                         <br> Quais são minhas competencias
                     </p>
                 </section>
+                <!-- fim sobre mim -->
+
+                <!-- experiencia -->
+                <section class="experience gap">
+                    <div class="right-title">Experiencia</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Empresa 01</p>
+                            <p class="exp-time-period">2021-Present</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Programador Full-Stack</p>
+                            <p class="exp-desc">
+                                Descreva aqui quais foram as principais atividades
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Empresa 02</p>
+                            <p class="exp-time-period">2018-2021</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Software Engineer</p>
+                            <p class="exp-desc">
+                                Descreva aqui quais foram as principais atividades
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Empresa 03</p>
+                            <p class="exp-time-period">2017-2018</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Software Engineer</p>
+                            <p class="exp-desc">
+                                Descreva aqui quais foram as principais atividades 
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim experiencia -->
+                <!-- cursos -->
+                <section class="awards gap">
+                    <div class="right-title">Cursos</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Elastic</p>
+                            <p class="awards-time-period">Junho de 2018</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Elasticsearch Engineer I & II</p>
+                            <p class="awards-desc">
+                                Curso sobre as principais ferramentas da stack da elastic...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Cloud Academy Inc.</p>
+                            <p class="awards-time-period">Novembro de 2021</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Docker in Depth</p>
+                            <p class="awards-desc">
+                                Curso sobre os principais comandos Docker...
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim cursos -->
             </div>
-            <section class="experience gap">
-                <div class="right-title">Experiencia</div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 01</p>
-                        <p class="exp-time-period">2021-Present</p>
-                    </div>
-                </div>
-                <div class="exp-right">
-                    <p class="exp-position">Gerente Operacional</p>
-                    <p class="exp-desc">
-                        Descreva aqui as principais atividades
-                    </p>
-                </div>
-                <div class="right-title">Experiencia</div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 02</p>
-                        <p class="exp-time-period">2022-Present</p>
-                    </div>
-                </div>
-                <div class="exp-right">
-                    <p class="exp-position">Dono de Agência</p>
-                    <p class="exp-desc">
-                        Descreva aqui as principais atividades
-                    </p>
-                </div>
-            </section>
-            <section class="education gap">
-                <div class="right-title">Formação Acadêmica</div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">IBGM</p>
-                        <p class="education-time-period">2008-2013</p>
-                    </div>
-                    <div class="education-right"></div>
-                    <p class="education-subject">Marketing</p>
-                 <p class="education-desc">
-                        Curso Full-Stak Senai
-                    </p>
-                </div>
-            </section>
-            <section class="awards gap">
-                <div class="right-title">cursos</div>
-                <div class="awards-contents">
-                    <div class="awards-left">
-                        <p class="awards-company-name">Elastic</p>
-                        <p class="awards-time-period">Junho de 2018</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-company-name">Logica de Programação</p>
-                        <p class="awards-time-period">Junho de 2019</p> 
-                    </div>
-                    <div class="awards-left">
-                        <p class="awards-company-name">Analise de Dados</p>
-                        <p class="awards-time-period">agosto de 2019</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-company-name">phyton</p>
-                        <p class="awards-time-period">setembro 2020</p> 
-                    </div>
-                </div>
-            </section>
         </section>
     </main>
 </body>
-
 </html>
